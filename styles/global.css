@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -32,4 +33,8 @@
     --blue: #B8CEDC;
     --violet: #C3B2E7;
     --pink: #F682A5;
+}
+
+body {
+    overflow: hidden;
 }
